@@ -12,6 +12,17 @@ exports.id = "app/dashboard/customers/page";
 exports.ids = ["app/dashboard/customers/page"];
 exports.modules = {
 
+/***/ "bcrypt":
+/*!*************************!*\
+  !*** external "bcrypt" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("bcrypt");
+
+/***/ }),
+
 /***/ "../../client/components/action-async-storage.external":
 /*!*******************************************************************************!*\
   !*** external "next/dist/client/components/action-async-storage.external.js" ***!
@@ -78,6 +89,215 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 /***/ }),
 
+/***/ "buffer":
+/*!*************************!*\
+  !*** external "buffer" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("buffer");
+
+/***/ }),
+
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "events":
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "https":
+/*!************************!*\
+  !*** external "https" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("https");
+
+/***/ }),
+
+/***/ "net":
+/*!**********************!*\
+  !*** external "net" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("net");
+
+/***/ }),
+
+/***/ "node:buffer":
+/*!******************************!*\
+  !*** external "node:buffer" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:buffer");
+
+/***/ }),
+
+/***/ "node:crypto":
+/*!******************************!*\
+  !*** external "node:crypto" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:crypto");
+
+/***/ }),
+
+/***/ "node:events":
+/*!******************************!*\
+  !*** external "node:events" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:events");
+
+/***/ }),
+
+/***/ "node:http":
+/*!****************************!*\
+  !*** external "node:http" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:http");
+
+/***/ }),
+
+/***/ "node:https":
+/*!*****************************!*\
+  !*** external "node:https" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:https");
+
+/***/ }),
+
+/***/ "node:util":
+/*!****************************!*\
+  !*** external "node:util" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:util");
+
+/***/ }),
+
+/***/ "os":
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("path");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "tls":
+/*!**********************!*\
+  !*** external "tls" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tls");
+
+/***/ }),
+
+/***/ "url":
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("url");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fdashboard%2Fcustomers%2Fpage&page=%2Fdashboard%2Fcustomers%2Fpage&appPaths=%2Fdashboard%2Fcustomers%2Fpage&pagePath=private-next-app-dir%2Fdashboard%2Fcustomers%2Fpage.tsx&appDir=%2FUsers%2Falexandr%2FDesktop%2Fnextjs-dashboard-second%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Falexandr%2FDesktop%2Fnextjs-dashboard-second&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fdashboard%2Fcustomers%2Fpage&page=%2Fdashboard%2Fcustomers%2Fpage&appPaths=%2Fdashboard%2Fcustomers%2Fpage&pagePath=private-next-app-dir%2Fdashboard%2Fcustomers%2Fpage.tsx&appDir=%2FUsers%2Falexandr%2FDesktop%2Fnextjs-dashboard-second%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Falexandr%2FDesktop%2Fnextjs-dashboard-second&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
@@ -86,6 +306,16 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   GlobalError: () => (/* reexport default from dynamic */ next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default.a),\n/* harmony export */   __next_app__: () => (/* binding */ __next_app__),\n/* harmony export */   originalPathname: () => (/* binding */ originalPathname),\n/* harmony export */   pages: () => (/* binding */ pages),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   tree: () => (/* binding */ tree)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/app-page/module.compiled */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js?5bc9\");\n/* harmony import */ var next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"(rsc)/./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/client/components/error-boundary */ \"(rsc)/./node_modules/next/dist/client/components/error-boundary.js\");\n/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/dist/server/app-render/entry-base */ \"(rsc)/./node_modules/next/dist/server/app-render/entry-base.js\");\n/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};\n/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__) if([\"default\",\"tree\",\"pages\",\"GlobalError\",\"originalPathname\",\"__next_app__\",\"routeModule\"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__[__WEBPACK_IMPORT_KEY__]\n/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);\n\"TURBOPACK { transition: next-ssr }\";\n\n\n// We inject the tree and pages here so that we can use them in the route\n// module.\nconst tree = {\n        children: [\n        '',\n        {\n        children: [\n        'dashboard',\n        {\n        children: [\n        'customers',\n        {\n        children: ['__PAGE__', {}, {\n          page: [() => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./app/dashboard/customers/page.tsx */ \"(rsc)/./app/dashboard/customers/page.tsx\")), \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/dashboard/customers/page.tsx\"],\n          \n        }]\n      },\n        {\n        \n        \n      }\n      ]\n      },\n        {\n        'layout': [() => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./app/dashboard/layout.tsx */ \"(rsc)/./app/dashboard/layout.tsx\")), \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/dashboard/layout.tsx\"],\n        \n      }\n      ]\n      },\n        {\n        'layout': [() => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./app/layout.tsx */ \"(rsc)/./app/layout.tsx\")), \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/layout.tsx\"],\n'not-found': [() => Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! next/dist/client/components/not-found-error */ \"(rsc)/./node_modules/next/dist/client/components/not-found-error.js\", 23)), \"next/dist/client/components/not-found-error\"],\n        \n      }\n      ]\n      }.children;\nconst pages = [\"/Users/alexandr/Desktop/nextjs-dashboard-second/app/dashboard/customers/page.tsx\"];\n\n\nconst __next_app_require__ = __webpack_require__\nconst __next_app_load_chunk__ = () => Promise.resolve()\nconst originalPathname = \"/dashboard/customers/page\";\nconst __next_app__ = {\n    require: __next_app_require__,\n    loadChunk: __next_app_load_chunk__\n};\n\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__.AppPageRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_PAGE,\n        page: \"/dashboard/customers/page\",\n        pathname: \"/dashboard/customers\",\n        // The following aren't used in production.\n        bundlePath: \"\",\n        filename: \"\",\n        appPaths: []\n    },\n    userland: {\n        loaderTree: tree\n    }\n});\n\n//# sourceMappingURL=app-page.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIuanM/bmFtZT1hcHAlMkZkYXNoYm9hcmQlMkZjdXN0b21lcnMlMkZwYWdlJnBhZ2U9JTJGZGFzaGJvYXJkJTJGY3VzdG9tZXJzJTJGcGFnZSZhcHBQYXRocz0lMkZkYXNoYm9hcmQlMkZjdXN0b21lcnMlMkZwYWdlJnBhZ2VQYXRoPXByaXZhdGUtbmV4dC1hcHAtZGlyJTJGZGFzaGJvYXJkJTJGY3VzdG9tZXJzJTJGcGFnZS50c3gmYXBwRGlyPSUyRlVzZXJzJTJGYWxleGFuZHIlMkZEZXNrdG9wJTJGbmV4dGpzLWRhc2hib2FyZC1zZWNvbmQlMkZhcHAmcGFnZUV4dGVuc2lvbnM9dHN4JnBhZ2VFeHRlbnNpb25zPXRzJnBhZ2VFeHRlbnNpb25zPWpzeCZwYWdlRXh0ZW5zaW9ucz1qcyZyb290RGlyPSUyRlVzZXJzJTJGYWxleGFuZHIlMkZEZXNrdG9wJTJGbmV4dGpzLWRhc2hib2FyZC1zZWNvbmQmaXNEZXY9dHJ1ZSZ0c2NvbmZpZ1BhdGg9dHNjb25maWcuanNvbiZiYXNlUGF0aD0mYXNzZXRQcmVmaXg9Jm5leHRDb25maWdPdXRwdXQ9JnByZWZlcnJlZFJlZ2lvbj0mbWlkZGxld2FyZUNvbmZpZz1lMzAlM0QhIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxhQUFhLHNCQUFzQjtBQUNpRTtBQUNyQztBQUMvRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQ0FBaUM7QUFDakMsdUJBQXVCLGdMQUFxSDtBQUM1STtBQUNBLFNBQVM7QUFDVCxPQUFPO0FBQ1A7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLE9BQU87QUFDUDtBQUNBLHlCQUF5QixnS0FBNkc7QUFDdEk7QUFDQTtBQUNBO0FBQ0EsT0FBTztBQUNQO0FBQ0EseUJBQXlCLDRJQUFtRztBQUM1SCxvQkFBb0IsME5BQWdGO0FBQ3BHO0FBQ0E7QUFDQTtBQUNBLE9BQU87QUFDUDtBQUN1QjtBQUM2RDtBQUNwRiw2QkFBNkIsbUJBQW1CO0FBQ2hEO0FBQ087QUFDQTtBQUNQO0FBQ0E7QUFDQTtBQUN1RDtBQUN2RDtBQUNPLHdCQUF3Qiw4R0FBa0I7QUFDakQ7QUFDQSxjQUFjLHlFQUFTO0FBQ3ZCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLEtBQUs7QUFDTDtBQUNBO0FBQ0E7QUFDQSxDQUFDOztBQUVEIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLz81MjQ2Il0sInNvdXJjZXNDb250ZW50IjpbIlwiVFVSQk9QQUNLIHsgdHJhbnNpdGlvbjogbmV4dC1zc3IgfVwiO1xuaW1wb3J0IHsgQXBwUGFnZVJvdXRlTW9kdWxlIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvZnV0dXJlL3JvdXRlLW1vZHVsZXMvYXBwLXBhZ2UvbW9kdWxlLmNvbXBpbGVkXCI7XG5pbXBvcnQgeyBSb3V0ZUtpbmQgfSBmcm9tIFwibmV4dC9kaXN0L3NlcnZlci9mdXR1cmUvcm91dGUta2luZFwiO1xuLy8gV2UgaW5qZWN0IHRoZSB0cmVlIGFuZCBwYWdlcyBoZXJlIHNvIHRoYXQgd2UgY2FuIHVzZSB0aGVtIGluIHRoZSByb3V0ZVxuLy8gbW9kdWxlLlxuY29uc3QgdHJlZSA9IHtcbiAgICAgICAgY2hpbGRyZW46IFtcbiAgICAgICAgJycsXG4gICAgICAgIHtcbiAgICAgICAgY2hpbGRyZW46IFtcbiAgICAgICAgJ2Rhc2hib2FyZCcsXG4gICAgICAgIHtcbiAgICAgICAgY2hpbGRyZW46IFtcbiAgICAgICAgJ2N1c3RvbWVycycsXG4gICAgICAgIHtcbiAgICAgICAgY2hpbGRyZW46IFsnX19QQUdFX18nLCB7fSwge1xuICAgICAgICAgIHBhZ2U6IFsoKSA9PiBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9hbGV4YW5kci9EZXNrdG9wL25leHRqcy1kYXNoYm9hcmQtc2Vjb25kL2FwcC9kYXNoYm9hcmQvY3VzdG9tZXJzL3BhZ2UudHN4XCIpLCBcIi9Vc2Vycy9hbGV4YW5kci9EZXNrdG9wL25leHRqcy1kYXNoYm9hcmQtc2Vjb25kL2FwcC9kYXNoYm9hcmQvY3VzdG9tZXJzL3BhZ2UudHN4XCJdLFxuICAgICAgICAgIFxuICAgICAgICB9XVxuICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICBcbiAgICAgICAgXG4gICAgICB9XG4gICAgICBdXG4gICAgICB9LFxuICAgICAgICB7XG4gICAgICAgICdsYXlvdXQnOiBbKCkgPT4gaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvYWxleGFuZHIvRGVza3RvcC9uZXh0anMtZGFzaGJvYXJkLXNlY29uZC9hcHAvZGFzaGJvYXJkL2xheW91dC50c3hcIiksIFwiL1VzZXJzL2FsZXhhbmRyL0Rlc2t0b3AvbmV4dGpzLWRhc2hib2FyZC1zZWNvbmQvYXBwL2Rhc2hib2FyZC9sYXlvdXQudHN4XCJdLFxuICAgICAgICBcbiAgICAgIH1cbiAgICAgIF1cbiAgICAgIH0sXG4gICAgICAgIHtcbiAgICAgICAgJ2xheW91dCc6IFsoKSA9PiBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9hbGV4YW5kci9EZXNrdG9wL25leHRqcy1kYXNoYm9hcmQtc2Vjb25kL2FwcC9sYXlvdXQudHN4XCIpLCBcIi9Vc2Vycy9hbGV4YW5kci9EZXNrdG9wL25leHRqcy1kYXNoYm9hcmQtc2Vjb25kL2FwcC9sYXlvdXQudHN4XCJdLFxuJ25vdC1mb3VuZCc6IFsoKSA9PiBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIm5leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9ub3QtZm91bmQtZXJyb3JcIiksIFwibmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL25vdC1mb3VuZC1lcnJvclwiXSxcbiAgICAgICAgXG4gICAgICB9XG4gICAgICBdXG4gICAgICB9LmNoaWxkcmVuO1xuY29uc3QgcGFnZXMgPSBbXCIvVXNlcnMvYWxleGFuZHIvRGVza3RvcC9uZXh0anMtZGFzaGJvYXJkLXNlY29uZC9hcHAvZGFzaGJvYXJkL2N1c3RvbWVycy9wYWdlLnRzeFwiXTtcbmV4cG9ydCB7IHRyZWUsIHBhZ2VzIH07XG5leHBvcnQgeyBkZWZhdWx0IGFzIEdsb2JhbEVycm9yIH0gZnJvbSBcIm5leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9lcnJvci1ib3VuZGFyeVwiO1xuY29uc3QgX19uZXh0X2FwcF9yZXF1aXJlX18gPSBfX3dlYnBhY2tfcmVxdWlyZV9fXG5jb25zdCBfX25leHRfYXBwX2xvYWRfY2h1bmtfXyA9ICgpID0+IFByb21pc2UucmVzb2x2ZSgpXG5leHBvcnQgY29uc3Qgb3JpZ2luYWxQYXRobmFtZSA9IFwiL2Rhc2hib2FyZC9jdXN0b21lcnMvcGFnZVwiO1xuZXhwb3J0IGNvbnN0IF9fbmV4dF9hcHBfXyA9IHtcbiAgICByZXF1aXJlOiBfX25leHRfYXBwX3JlcXVpcmVfXyxcbiAgICBsb2FkQ2h1bms6IF9fbmV4dF9hcHBfbG9hZF9jaHVua19fXG59O1xuZXhwb3J0ICogZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvYXBwLXJlbmRlci9lbnRyeS1iYXNlXCI7XG4vLyBDcmVhdGUgYW5kIGV4cG9ydCB0aGUgcm91dGUgbW9kdWxlIHRoYXQgd2lsbCBiZSBjb25zdW1lZC5cbmV4cG9ydCBjb25zdCByb3V0ZU1vZHVsZSA9IG5ldyBBcHBQYWdlUm91dGVNb2R1bGUoe1xuICAgIGRlZmluaXRpb246IHtcbiAgICAgICAga2luZDogUm91dGVLaW5kLkFQUF9QQUdFLFxuICAgICAgICBwYWdlOiBcIi9kYXNoYm9hcmQvY3VzdG9tZXJzL3BhZ2VcIixcbiAgICAgICAgcGF0aG5hbWU6IFwiL2Rhc2hib2FyZC9jdXN0b21lcnNcIixcbiAgICAgICAgLy8gVGhlIGZvbGxvd2luZyBhcmVuJ3QgdXNlZCBpbiBwcm9kdWN0aW9uLlxuICAgICAgICBidW5kbGVQYXRoOiBcIlwiLFxuICAgICAgICBmaWxlbmFtZTogXCJcIixcbiAgICAgICAgYXBwUGF0aHM6IFtdXG4gICAgfSxcbiAgICB1c2VybGFuZDoge1xuICAgICAgICBsb2FkZXJUcmVlOiB0cmVlXG4gICAgfVxufSk7XG5cbi8vIyBzb3VyY2VNYXBwaW5nVVJMPWFwcC1wYWdlLmpzLm1hcCJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fdashboard%2Fcustomers%2Fpage&page=%2Fdashboard%2Fcustomers%2Fpage&appPaths=%2Fdashboard%2Fcustomers%2Fpage&pagePath=private-next-app-dir%2Fdashboard%2Fcustomers%2Fpage.tsx&appDir=%2FUsers%2Falexandr%2FDesktop%2Fnextjs-dashboard-second%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Falexandr%2FDesktop%2Fnextjs-dashboard-second&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Falexandr%2FDesktop%2Fnextjs-dashboard-second%2Fapp%2Fui%2Fdashboard%2Fsidenav.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!":
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Falexandr%2FDesktop%2Fnextjs-dashboard-second%2Fapp%2Fui%2Fdashboard%2Fsidenav.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=! ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("\nconst actions = {\n'9df1e2b028bdc33329d661b1cb2e57aa0a479d27': () => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./app/ui/dashboard/sidenav.tsx */ \"(rsc)/./app/ui/dashboard/sidenav.tsx\")).then(mod => mod[\"$$ACTION_1\"]),\n}\n\nasync function endpoint(id, ...args) {\n  const action = await actions[id]()\n  return action.apply(null, args)\n}\n\n// Using CJS to avoid this to be tree-shaken away due to unused exports.\nmodule.exports = {\n  '9df1e2b028bdc33329d661b1cb2e57aa0a479d27': endpoint.bind(null, '9df1e2b028bdc33329d661b1cb2e57aa0a479d27'),\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1hY3Rpb24tZW50cnktbG9hZGVyLmpzP2FjdGlvbnM9JTVCJTVCJTIyJTJGVXNlcnMlMkZhbGV4YW5kciUyRkRlc2t0b3AlMkZuZXh0anMtZGFzaGJvYXJkLXNlY29uZCUyRmFwcCUyRnVpJTJGZGFzaGJvYXJkJTJGc2lkZW5hdi50c3glMjIlMkMlNUIlMjIlMjQlMjRBQ1RJT05fMSUyMiU1RCU1RCU1RCZfX2NsaWVudF9pbXBvcnRlZF9fPSEiLCJtYXBwaW5ncyI6IjtBQUNBO0FBQ0Esa0RBQWtELHdLQUFpSDtBQUNuSzs7QUFFQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovLy8/MzE1MCJdLCJzb3VyY2VzQ29udGVudCI6WyJcbmNvbnN0IGFjdGlvbnMgPSB7XG4nOWRmMWUyYjAyOGJkYzMzMzI5ZDY2MWIxY2IyZTU3YWEwYTQ3OWQyNyc6ICgpID0+IGltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL2FsZXhhbmRyL0Rlc2t0b3AvbmV4dGpzLWRhc2hib2FyZC1zZWNvbmQvYXBwL3VpL2Rhc2hib2FyZC9zaWRlbmF2LnRzeFwiKS50aGVuKG1vZCA9PiBtb2RbXCIkJEFDVElPTl8xXCJdKSxcbn1cblxuYXN5bmMgZnVuY3Rpb24gZW5kcG9pbnQoaWQsIC4uLmFyZ3MpIHtcbiAgY29uc3QgYWN0aW9uID0gYXdhaXQgYWN0aW9uc1tpZF0oKVxuICByZXR1cm4gYWN0aW9uLmFwcGx5KG51bGwsIGFyZ3MpXG59XG5cbi8vIFVzaW5nIENKUyB0byBhdm9pZCB0aGlzIHRvIGJlIHRyZWUtc2hha2VuIGF3YXkgZHVlIHRvIHVudXNlZCBleHBvcnRzLlxubW9kdWxlLmV4cG9ydHMgPSB7XG4gICc5ZGYxZTJiMDI4YmRjMzMzMjlkNjYxYjFjYjJlNTdhYTBhNDc5ZDI3JzogZW5kcG9pbnQuYmluZChudWxsLCAnOWRmMWUyYjAyOGJkYzMzMzI5ZDY2MWIxY2IyZTU3YWEwYTQ3OWQyNycpLFxufVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Falexandr%2FDesktop%2Fnextjs-dashboard-second%2Fapp%2Fui%2Fdashboard%2Fsidenav.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!\n");
 
 /***/ }),
 
@@ -231,7 +461,7 @@ const __default__ = proxy.default;
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ SideNav)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ \"(rsc)/./node_modules/next/link.js\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _app_ui_dashboard_nav_links__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/app/ui/dashboard/nav-links */ \"(rsc)/./app/ui/dashboard/nav-links.tsx\");\n/* harmony import */ var _app_ui_acme_logo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/app/ui/acme-logo */ \"(rsc)/./app/ui/acme-logo.tsx\");\n/* harmony import */ var _barrel_optimize_names_PowerIcon_heroicons_react_24_outline__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! __barrel_optimize__?names=PowerIcon!=!@heroicons/react/24/outline */ \"(rsc)/./node_modules/@heroicons/react/24/outline/esm/PowerIcon.js\");\n\n\n\n\n\nfunction SideNav() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"flex h-full flex-col px-3 py-4 md:px-2\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {\n                className: \"mb-2 flex h-20 items-end justify-start rounded-md bg-blue-600 p-4 md:h-40\",\n                href: \"/\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"w-32 text-white md:w-40\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_app_ui_acme_logo__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                        lineNumber: 14,\n                        columnNumber: 11\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                    lineNumber: 13,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                lineNumber: 9,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_app_ui_dashboard_nav_links__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                        lineNumber: 18,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"hidden h-auto w-full grow rounded-md bg-gray-50 md:block\"\n                    }, void 0, false, {\n                        fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                        lineNumber: 19,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                            className: \"flex h-[48px] w-full grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3\",\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_PowerIcon_heroicons_react_24_outline__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                                    className: \"w-6\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                                    lineNumber: 22,\n                                    columnNumber: 13\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"hidden md:block\",\n                                    children: \"Sign Out\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                                    lineNumber: 23,\n                                    columnNumber: 13\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                            lineNumber: 21,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                        lineNumber: 20,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                lineNumber: 17,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n        lineNumber: 8,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvdWkvZGFzaGJvYXJkL3NpZGVuYXYudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUE2QjtBQUN1QjtBQUNWO0FBQ2M7QUFFekMsU0FBU0k7SUFDdEIscUJBQ0UsOERBQUNDO1FBQUlDLFdBQVU7OzBCQUNiLDhEQUFDTixrREFBSUE7Z0JBQ0hNLFdBQVU7Z0JBQ1ZDLE1BQUs7MEJBRUwsNEVBQUNGO29CQUFJQyxXQUFVOzhCQUNiLDRFQUFDSix5REFBUUE7Ozs7Ozs7Ozs7Ozs7OzswQkFHYiw4REFBQ0c7Z0JBQUlDLFdBQVU7O2tDQUNiLDhEQUFDTCxtRUFBUUE7Ozs7O2tDQUNULDhEQUFDSTt3QkFBSUMsV0FBVTs7Ozs7O2tDQUNmLDhEQUFDRTtrQ0FDQyw0RUFBQ0M7NEJBQU9ILFdBQVU7OzhDQUNoQiw4REFBQ0gsbUdBQVNBO29DQUFDRyxXQUFVOzs7Ozs7OENBQ3JCLDhEQUFDRDtvQ0FBSUMsV0FBVTs4Q0FBa0I7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBTTdDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vYXBwL3VpL2Rhc2hib2FyZC9zaWRlbmF2LnRzeD9jMWUxIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XG5pbXBvcnQgTmF2TGlua3MgZnJvbSAnQC9hcHAvdWkvZGFzaGJvYXJkL25hdi1saW5rcyc7XG5pbXBvcnQgQWNtZUxvZ28gZnJvbSAnQC9hcHAvdWkvYWNtZS1sb2dvJztcbmltcG9ydCB7IFBvd2VySWNvbiB9IGZyb20gJ0BoZXJvaWNvbnMvcmVhY3QvMjQvb3V0bGluZSc7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFNpZGVOYXYoKSB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGgtZnVsbCBmbGV4LWNvbCBweC0zIHB5LTQgbWQ6cHgtMlwiPlxuICAgICAgPExpbmtcbiAgICAgICAgY2xhc3NOYW1lPVwibWItMiBmbGV4IGgtMjAgaXRlbXMtZW5kIGp1c3RpZnktc3RhcnQgcm91bmRlZC1tZCBiZy1ibHVlLTYwMCBwLTQgbWQ6aC00MFwiXG4gICAgICAgIGhyZWY9XCIvXCJcbiAgICAgID5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3LTMyIHRleHQtd2hpdGUgbWQ6dy00MFwiPlxuICAgICAgICAgIDxBY21lTG9nbyAvPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvTGluaz5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBncm93IGZsZXgtcm93IGp1c3RpZnktYmV0d2VlbiBzcGFjZS14LTIgbWQ6ZmxleC1jb2wgbWQ6c3BhY2UteC0wIG1kOnNwYWNlLXktMlwiPlxuICAgICAgICA8TmF2TGlua3MgLz5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoaWRkZW4gaC1hdXRvIHctZnVsbCBncm93IHJvdW5kZWQtbWQgYmctZ3JheS01MCBtZDpibG9ja1wiPjwvZGl2PlxuICAgICAgICA8Zm9ybT5cbiAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImZsZXggaC1bNDhweF0gdy1mdWxsIGdyb3cgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIHJvdW5kZWQtbWQgYmctZ3JheS01MCBwLTMgdGV4dC1zbSBmb250LW1lZGl1bSBob3ZlcjpiZy1za3ktMTAwIGhvdmVyOnRleHQtYmx1ZS02MDAgbWQ6ZmxleC1ub25lIG1kOmp1c3RpZnktc3RhcnQgbWQ6cC0yIG1kOnB4LTNcIj5cbiAgICAgICAgICAgIDxQb3dlckljb24gY2xhc3NOYW1lPVwidy02XCIgLz5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaGlkZGVuIG1kOmJsb2NrXCI+U2lnbiBPdXQ8L2Rpdj5cbiAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgPC9mb3JtPlxuICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiTGluayIsIk5hdkxpbmtzIiwiQWNtZUxvZ28iLCJQb3dlckljb24iLCJTaWRlTmF2IiwiZGl2IiwiY2xhc3NOYW1lIiwiaHJlZiIsImZvcm0iLCJidXR0b24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/ui/dashboard/sidenav.tsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   $$ACTION_1: () => (/* binding */ $$ACTION_1),\n/* harmony export */   \"default\": () => (/* binding */ SideNav)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var private_next_rsc_action_proxy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! private-next-rsc-action-proxy */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-proxy.js\");\n/* harmony import */ var private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! private-next-rsc-action-encryption */ \"(rsc)/./node_modules/next/dist/server/app-render/action-encryption.js\");\n/* harmony import */ var private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ \"(rsc)/./node_modules/next/link.js\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _app_ui_dashboard_nav_links__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/app/ui/dashboard/nav-links */ \"(rsc)/./app/ui/dashboard/nav-links.tsx\");\n/* harmony import */ var _app_ui_acme_logo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/app/ui/acme-logo */ \"(rsc)/./app/ui/acme-logo.tsx\");\n/* harmony import */ var _barrel_optimize_names_PowerIcon_heroicons_react_24_outline__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! __barrel_optimize__?names=PowerIcon!=!@heroicons/react/24/outline */ \"(rsc)/./node_modules/@heroicons/react/24/outline/esm/PowerIcon.js\");\n/* harmony import */ var _auth__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/auth */ \"(rsc)/./auth.ts\");\n/* __next_internal_action_entry_do_not_use__ {\"9df1e2b028bdc33329d661b1cb2e57aa0a479d27\":\"$$ACTION_1\"} */ \n\n\n\n\n\n\n\nfunction SideNav() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"flex h-full flex-col px-3 py-4 md:px-2\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {\n                className: \"mb-2 flex h-20 items-end justify-start rounded-md bg-blue-600 p-4 md:h-40\",\n                href: \"/\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"w-32 text-white md:w-40\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_app_ui_acme_logo__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                        lineNumber: 15,\n                        columnNumber: 11\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                    lineNumber: 14,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_app_ui_dashboard_nav_links__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                        lineNumber: 19,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"hidden h-auto w-full grow rounded-md bg-gray-50 md:block\"\n                    }, void 0, false, {\n                        fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                        lineNumber: 20,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n                        action: ($$ACTION_0 = async (...args)=>$$ACTION_1.apply(null, ($$ACTION_0.$$bound || []).concat(args)), (0,private_next_rsc_action_proxy__WEBPACK_IMPORTED_MODULE_1__.createActionProxy)(\"9df1e2b028bdc33329d661b1cb2e57aa0a479d27\", null, $$ACTION_0, $$ACTION_1), $$ACTION_0),\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                            className: \"flex h-[48px] w-full grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3\",\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_PowerIcon_heroicons_react_24_outline__WEBPACK_IMPORTED_MODULE_7__[\"default\"], {\n                                    className: \"w-6\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                                    lineNumber: 28,\n                                    columnNumber: 13\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"hidden md:block\",\n                                    children: \"Sign Out\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                                    lineNumber: 29,\n                                    columnNumber: 13\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                            lineNumber: 27,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                        lineNumber: 21,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n                lineNumber: 18,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/alexandr/Desktop/nextjs-dashboard-second/app/ui/dashboard/sidenav.tsx\",\n        lineNumber: 9,\n        columnNumber: 5\n    }, this);\n}\nvar $$ACTION_1 = async ()=>{\n    await (0,_auth__WEBPACK_IMPORTED_MODULE_6__.signOut)();\n};\nvar $$ACTION_0;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvdWkvZGFzaGJvYXJkL3NpZGVuYXYudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBNkI7QUFDdUI7QUFDVjtBQUNjO0FBQ3ZCO0FBRWxCLFNBQVNLO0lBQ3RCLHFCQUNFLDhEQUFDQztRQUFJQyxXQUFVOzswQkFDYiw4REFBQ1Asa0RBQUlBO2dCQUNITyxXQUFVO2dCQUNWQyxNQUFLOzBCQUVMLDRFQUFDRjtvQkFBSUMsV0FBVTs4QkFDYiw0RUFBQ0wseURBQVFBOzs7Ozs7Ozs7Ozs7Ozs7MEJBR2IsOERBQUNJO2dCQUFJQyxXQUFVOztrQ0FDYiw4REFBQ04sbUVBQVFBOzs7OztrQ0FDVCw4REFBQ0s7d0JBQUlDLFdBQVU7Ozs7OztrQ0FDZiw4REFBQ0U7d0JBQ0NDLE1BQU07a0NBS04sNEVBQUNDOzRCQUFPSixXQUFVOzs4Q0FDaEIsOERBQUNKLG1HQUFTQTtvQ0FBQ0ksV0FBVTs7Ozs7OzhDQUNyQiw4REFBQ0Q7b0NBQUlDLFdBQVU7OENBQWtCOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQU03QztpQkFia0I7SUFFTixNQUFNSCw4Q0FBT0E7QUFDZiIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2FwcC91aS9kYXNoYm9hcmQvc2lkZW5hdi50c3g/YzFlMSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xuaW1wb3J0IE5hdkxpbmtzIGZyb20gJ0AvYXBwL3VpL2Rhc2hib2FyZC9uYXYtbGlua3MnO1xuaW1wb3J0IEFjbWVMb2dvIGZyb20gJ0AvYXBwL3VpL2FjbWUtbG9nbyc7XG5pbXBvcnQgeyBQb3dlckljb24gfSBmcm9tICdAaGVyb2ljb25zL3JlYWN0LzI0L291dGxpbmUnO1xuaW1wb3J0IHsgc2lnbk91dCB9IGZyb20gJ0AvYXV0aCc7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFNpZGVOYXYoKSB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGgtZnVsbCBmbGV4LWNvbCBweC0zIHB5LTQgbWQ6cHgtMlwiPlxuICAgICAgPExpbmtcbiAgICAgICAgY2xhc3NOYW1lPVwibWItMiBmbGV4IGgtMjAgaXRlbXMtZW5kIGp1c3RpZnktc3RhcnQgcm91bmRlZC1tZCBiZy1ibHVlLTYwMCBwLTQgbWQ6aC00MFwiXG4gICAgICAgIGhyZWY9XCIvXCJcbiAgICAgID5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3LTMyIHRleHQtd2hpdGUgbWQ6dy00MFwiPlxuICAgICAgICAgIDxBY21lTG9nbyAvPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvTGluaz5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBncm93IGZsZXgtcm93IGp1c3RpZnktYmV0d2VlbiBzcGFjZS14LTIgbWQ6ZmxleC1jb2wgbWQ6c3BhY2UteC0wIG1kOnNwYWNlLXktMlwiPlxuICAgICAgICA8TmF2TGlua3MgLz5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoaWRkZW4gaC1hdXRvIHctZnVsbCBncm93IHJvdW5kZWQtbWQgYmctZ3JheS01MCBtZDpibG9ja1wiPjwvZGl2PlxuICAgICAgICA8Zm9ybVxuICAgICAgICAgIGFjdGlvbj17YXN5bmMgKCkgPT4ge1xuICAgICAgICAgICAgJ3VzZSBzZXJ2ZXInO1xuICAgICAgICAgICAgYXdhaXQgc2lnbk91dCgpO1xuICAgICAgICAgIH19XG4gICAgICAgID5cbiAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImZsZXggaC1bNDhweF0gdy1mdWxsIGdyb3cgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIHJvdW5kZWQtbWQgYmctZ3JheS01MCBwLTMgdGV4dC1zbSBmb250LW1lZGl1bSBob3ZlcjpiZy1za3ktMTAwIGhvdmVyOnRleHQtYmx1ZS02MDAgbWQ6ZmxleC1ub25lIG1kOmp1c3RpZnktc3RhcnQgbWQ6cC0yIG1kOnB4LTNcIj5cbiAgICAgICAgICAgIDxQb3dlckljb24gY2xhc3NOYW1lPVwidy02XCIgLz5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaGlkZGVuIG1kOmJsb2NrXCI+U2lnbiBPdXQ8L2Rpdj5cbiAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgPC9mb3JtPlxuICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiTGluayIsIk5hdkxpbmtzIiwiQWNtZUxvZ28iLCJQb3dlckljb24iLCJzaWduT3V0IiwiU2lkZU5hdiIsImRpdiIsImNsYXNzTmFtZSIsImhyZWYiLCJmb3JtIiwiYWN0aW9uIiwiYnV0dG9uIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./app/ui/dashboard/sidenav.tsx\n");
 
 /***/ }),
 
@@ -244,6 +474,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   inter: () => (/* reexport default from dynamic */ next_font_google_target_css_path_app_ui_fonts_ts_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_0___default.a),\n/* harmony export */   lusitana: () => (/* reexport default from dynamic */ next_font_google_target_css_path_app_ui_fonts_ts_import_Lusitana_arguments_weight_400_700_subsets_latin_variableName_lusitana___WEBPACK_IMPORTED_MODULE_1___default.a)\n/* harmony export */ });\n/* harmony import */ var next_font_google_target_css_path_app_ui_fonts_ts_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"app/ui/fonts.ts\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"app/ui/fonts.ts\\\",\\\"import\\\":\\\"Inter\\\",\\\"arguments\\\":[{\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"inter\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_app_ui_fonts_ts_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_app_ui_fonts_ts_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_font_google_target_css_path_app_ui_fonts_ts_import_Lusitana_arguments_weight_400_700_subsets_latin_variableName_lusitana___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"app/ui/fonts.ts\",\"import\":\"Lusitana\",\"arguments\":[{\"weight\":[\"400\",\"700\"],\"subsets\":[\"latin\"]}],\"variableName\":\"lusitana\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"app/ui/fonts.ts\\\",\\\"import\\\":\\\"Lusitana\\\",\\\"arguments\\\":[{\\\"weight\\\":[\\\"400\\\",\\\"700\\\"],\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"lusitana\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_app_ui_fonts_ts_import_Lusitana_arguments_weight_400_700_subsets_latin_variableName_lusitana___WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_app_ui_fonts_ts_import_Lusitana_arguments_weight_400_700_subsets_latin_variableName_lusitana___WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvdWkvZm9udHMudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBRWFBO0FBRUFDO0FBRkFEO0FBRUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vYXBwL3VpL2ZvbnRzLnRzP2UxOTAiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSW50ZXIsIEx1c2l0YW5hIH0gZnJvbSAnbmV4dC9mb250L2dvb2dsZSc7XG4gXG5leHBvcnQgY29uc3QgaW50ZXIgPSBJbnRlcih7IHN1YnNldHM6IFsnbGF0aW4nXSB9KTtcbiBcbmV4cG9ydCBjb25zdCBsdXNpdGFuYSA9IEx1c2l0YW5hKHtcbiAgd2VpZ2h0OiBbJzQwMCcsICc3MDAnXSxcbiAgc3Vic2V0czogWydsYXRpbiddLFxufSk7Il0sIm5hbWVzIjpbImludGVyIiwibHVzaXRhbmEiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/ui/fonts.ts\n");
 
+/***/ }),
+
+/***/ "(rsc)/./auth.config.ts":
+/*!************************!*\
+  !*** ./auth.config.ts ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   authConfig: () => (/* binding */ authConfig)\n/* harmony export */ });\nconst authConfig = {\n    pages: {\n        signIn: \"/login\"\n    },\n    callbacks: {\n        authorized ({ auth, request: { nextUrl } }) {\n            const isLoggedIn = !!auth?.user;\n            const isOnDashboard = nextUrl.pathname.startsWith(\"/dashboard\");\n            if (isOnDashboard) {\n                if (isLoggedIn) return true;\n                return false; // Redirect unauthenticated users to login page\n            } else if (isLoggedIn) {\n                return Response.redirect(new URL(\"/dashboard\", nextUrl));\n            }\n            return true;\n        }\n    },\n    providers: []\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hdXRoLmNvbmZpZy50cyIsIm1hcHBpbmdzIjoiOzs7O0FBRU8sTUFBTUEsYUFBYTtJQUN4QkMsT0FBTztRQUNMQyxRQUFRO0lBQ1Y7SUFDQUMsV0FBVztRQUNUQyxZQUFXLEVBQUVDLElBQUksRUFBRUMsU0FBUyxFQUFFQyxPQUFPLEVBQUUsRUFBRTtZQUN2QyxNQUFNQyxhQUFhLENBQUMsQ0FBQ0gsTUFBTUk7WUFDM0IsTUFBTUMsZ0JBQWdCSCxRQUFRSSxRQUFRLENBQUNDLFVBQVUsQ0FBQztZQUNsRCxJQUFJRixlQUFlO2dCQUNqQixJQUFJRixZQUFZLE9BQU87Z0JBQ3ZCLE9BQU8sT0FBTywrQ0FBK0M7WUFDL0QsT0FBTyxJQUFJQSxZQUFZO2dCQUNyQixPQUFPSyxTQUFTQyxRQUFRLENBQUMsSUFBSUMsSUFBSSxjQUFjUjtZQUNqRDtZQUNBLE9BQU87UUFDVDtJQUNGO0lBQ0FTLFdBQVcsRUFBRTtBQUNmLEVBQTJCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vYXV0aC5jb25maWcudHM/NDMwOCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgdHlwZSB7IE5leHRBdXRoQ29uZmlnIH0gZnJvbSAnbmV4dC1hdXRoJztcbiBcbmV4cG9ydCBjb25zdCBhdXRoQ29uZmlnID0ge1xuICBwYWdlczoge1xuICAgIHNpZ25JbjogJy9sb2dpbicsXG4gIH0sXG4gIGNhbGxiYWNrczoge1xuICAgIGF1dGhvcml6ZWQoeyBhdXRoLCByZXF1ZXN0OiB7IG5leHRVcmwgfSB9KSB7XG4gICAgICBjb25zdCBpc0xvZ2dlZEluID0gISFhdXRoPy51c2VyO1xuICAgICAgY29uc3QgaXNPbkRhc2hib2FyZCA9IG5leHRVcmwucGF0aG5hbWUuc3RhcnRzV2l0aCgnL2Rhc2hib2FyZCcpO1xuICAgICAgaWYgKGlzT25EYXNoYm9hcmQpIHtcbiAgICAgICAgaWYgKGlzTG9nZ2VkSW4pIHJldHVybiB0cnVlO1xuICAgICAgICByZXR1cm4gZmFsc2U7IC8vIFJlZGlyZWN0IHVuYXV0aGVudGljYXRlZCB1c2VycyB0byBsb2dpbiBwYWdlXG4gICAgICB9IGVsc2UgaWYgKGlzTG9nZ2VkSW4pIHtcbiAgICAgICAgcmV0dXJuIFJlc3BvbnNlLnJlZGlyZWN0KG5ldyBVUkwoJy9kYXNoYm9hcmQnLCBuZXh0VXJsKSk7XG4gICAgICB9XG4gICAgICByZXR1cm4gdHJ1ZTtcbiAgICB9LFxuICB9LFxuICBwcm92aWRlcnM6IFtdLCAvLyBBZGQgcHJvdmlkZXJzIHdpdGggYW4gZW1wdHkgYXJyYXkgZm9yIG5vd1xufSBzYXRpc2ZpZXMgTmV4dEF1dGhDb25maWc7Il0sIm5hbWVzIjpbImF1dGhDb25maWciLCJwYWdlcyIsInNpZ25JbiIsImNhbGxiYWNrcyIsImF1dGhvcml6ZWQiLCJhdXRoIiwicmVxdWVzdCIsIm5leHRVcmwiLCJpc0xvZ2dlZEluIiwidXNlciIsImlzT25EYXNoYm9hcmQiLCJwYXRobmFtZSIsInN0YXJ0c1dpdGgiLCJSZXNwb25zZSIsInJlZGlyZWN0IiwiVVJMIiwicHJvdmlkZXJzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./auth.config.ts\n");
+
+/***/ }),
+
+/***/ "(rsc)/./auth.ts":
+/*!*****************!*\
+  !*** ./auth.ts ***!
+  \*****************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   auth: () => (/* binding */ auth),\n/* harmony export */   signIn: () => (/* binding */ signIn),\n/* harmony export */   signOut: () => (/* binding */ signOut)\n/* harmony export */ });\n/* harmony import */ var next_auth__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next-auth */ \"(rsc)/./node_modules/next-auth/index.js\");\n/* harmony import */ var next_auth_providers_credentials__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next-auth/providers/credentials */ \"(rsc)/./node_modules/next-auth/providers/credentials.js\");\n/* harmony import */ var _auth_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./auth.config */ \"(rsc)/./auth.config.ts\");\n/* harmony import */ var zod__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! zod */ \"(rsc)/./node_modules/zod/lib/index.mjs\");\n/* harmony import */ var _vercel_postgres__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @vercel/postgres */ \"(rsc)/./node_modules/@vercel/postgres/dist/index-node.js\");\n/* harmony import */ var bcrypt__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bcrypt */ \"bcrypt\");\n/* harmony import */ var bcrypt__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(bcrypt__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\n\nasync function getUser(email) {\n    try {\n        const user = await _vercel_postgres__WEBPACK_IMPORTED_MODULE_3__.sql`SELECT * FROM users WHERE email=${email}`;\n        return user.rows[0];\n    } catch (error) {\n        console.error(\"Failed to fetch user:\", error);\n        throw new Error(\"Failed to fetch user.\");\n    }\n}\nconst { auth, signIn, signOut } = (0,next_auth__WEBPACK_IMPORTED_MODULE_0__[\"default\"])({\n    ..._auth_config__WEBPACK_IMPORTED_MODULE_2__.authConfig,\n    providers: [\n        (0,next_auth_providers_credentials__WEBPACK_IMPORTED_MODULE_1__[\"default\"])({\n            async authorize (credentials) {\n                const parsedCredentials = zod__WEBPACK_IMPORTED_MODULE_5__.z.object({\n                    email: zod__WEBPACK_IMPORTED_MODULE_5__.z.string().email(),\n                    password: zod__WEBPACK_IMPORTED_MODULE_5__.z.string().min(6)\n                }).safeParse(credentials);\n                if (parsedCredentials.success) {\n                    const { email, password } = parsedCredentials.data;\n                    const user = await getUser(email);\n                    if (!user) return null;\n                    const passwordsMatch = await bcrypt__WEBPACK_IMPORTED_MODULE_4___default().compare(password, user.password);\n                    if (passwordsMatch) return user;\n                }\n                console.log(\"Invalid credentials\");\n                return null;\n            }\n        })\n    ]\n});\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hdXRoLnRzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFBaUM7QUFDeUI7QUFDZjtBQUNuQjtBQUNlO0FBRVg7QUFFNUIsZUFBZU0sUUFBUUMsS0FBYTtJQUNsQyxJQUFJO1FBQ0YsTUFBTUMsT0FBTyxNQUFNSixpREFBUyxDQUFDLGdDQUFnQyxFQUFFRyxNQUFNLENBQUM7UUFDdEUsT0FBT0MsS0FBS0MsSUFBSSxDQUFDLEVBQUU7SUFDckIsRUFBRSxPQUFPQyxPQUFPO1FBQ2RDLFFBQVFELEtBQUssQ0FBQyx5QkFBeUJBO1FBQ3ZDLE1BQU0sSUFBSUUsTUFBTTtJQUNsQjtBQUNGO0FBRU8sTUFBTSxFQUFFQyxJQUFJLEVBQUVDLE1BQU0sRUFBRUMsT0FBTyxFQUFFLEdBQUdmLHFEQUFRQSxDQUFDO0lBQ2hELEdBQUdFLG9EQUFVO0lBQ2JjLFdBQVc7UUFDVGYsMkVBQVdBLENBQUM7WUFDVixNQUFNZ0IsV0FBVUMsV0FBVztnQkFDekIsTUFBTUMsb0JBQW9CaEIsa0NBQUNBLENBQ3hCaUIsTUFBTSxDQUFDO29CQUFFYixPQUFPSixrQ0FBQ0EsQ0FBQ2tCLE1BQU0sR0FBR2QsS0FBSztvQkFBSWUsVUFBVW5CLGtDQUFDQSxDQUFDa0IsTUFBTSxHQUFHRSxHQUFHLENBQUM7Z0JBQUcsR0FDaEVDLFNBQVMsQ0FBQ047Z0JBRWIsSUFBSUMsa0JBQWtCTSxPQUFPLEVBQUU7b0JBQzdCLE1BQU0sRUFBRWxCLEtBQUssRUFBRWUsUUFBUSxFQUFFLEdBQUdILGtCQUFrQk8sSUFBSTtvQkFDbEQsTUFBTWxCLE9BQU8sTUFBTUYsUUFBUUM7b0JBQzNCLElBQUksQ0FBQ0MsTUFBTSxPQUFPO29CQUNsQixNQUFNbUIsaUJBQWlCLE1BQU10QixxREFBYyxDQUFDaUIsVUFBVWQsS0FBS2MsUUFBUTtvQkFFbkUsSUFBSUssZ0JBQWdCLE9BQU9uQjtnQkFDN0I7Z0JBRUFHLFFBQVFrQixHQUFHLENBQUM7Z0JBQ1osT0FBTztZQUNUO1FBQ0Y7S0FDRDtBQUNILEdBQUciLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hdXRoLnRzPzkyMzgiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IE5leHRBdXRoIGZyb20gJ25leHQtYXV0aCc7XG5pbXBvcnQgQ3JlZGVudGlhbHMgZnJvbSAnbmV4dC1hdXRoL3Byb3ZpZGVycy9jcmVkZW50aWFscyc7XG5pbXBvcnQgeyBhdXRoQ29uZmlnIH0gZnJvbSAnLi9hdXRoLmNvbmZpZyc7XG5pbXBvcnQgeyB6IH0gZnJvbSAnem9kJztcbmltcG9ydCB7IHNxbCB9IGZyb20gJ0B2ZXJjZWwvcG9zdGdyZXMnO1xuaW1wb3J0IHR5cGUgeyBVc2VyIH0gZnJvbSAnQC9hcHAvbGliL2RlZmluaXRpb25zJztcbmltcG9ydCBiY3J5cHQgZnJvbSAnYmNyeXB0JztcblxuYXN5bmMgZnVuY3Rpb24gZ2V0VXNlcihlbWFpbDogc3RyaW5nKTogUHJvbWlzZTxVc2VyIHwgdW5kZWZpbmVkPiB7XG4gIHRyeSB7XG4gICAgY29uc3QgdXNlciA9IGF3YWl0IHNxbDxVc2VyPmBTRUxFQ1QgKiBGUk9NIHVzZXJzIFdIRVJFIGVtYWlsPSR7ZW1haWx9YDtcbiAgICByZXR1cm4gdXNlci5yb3dzWzBdO1xuICB9IGNhdGNoIChlcnJvcikge1xuICAgIGNvbnNvbGUuZXJyb3IoJ0ZhaWxlZCB0byBmZXRjaCB1c2VyOicsIGVycm9yKTtcbiAgICB0aHJvdyBuZXcgRXJyb3IoJ0ZhaWxlZCB0byBmZXRjaCB1c2VyLicpO1xuICB9XG59XG5cbmV4cG9ydCBjb25zdCB7IGF1dGgsIHNpZ25Jbiwgc2lnbk91dCB9ID0gTmV4dEF1dGgoe1xuICAuLi5hdXRoQ29uZmlnLFxuICBwcm92aWRlcnM6IFtcbiAgICBDcmVkZW50aWFscyh7XG4gICAgICBhc3luYyBhdXRob3JpemUoY3JlZGVudGlhbHMpIHtcbiAgICAgICAgY29uc3QgcGFyc2VkQ3JlZGVudGlhbHMgPSB6XG4gICAgICAgICAgLm9iamVjdCh7IGVtYWlsOiB6LnN0cmluZygpLmVtYWlsKCksIHBhc3N3b3JkOiB6LnN0cmluZygpLm1pbig2KSB9KVxuICAgICAgICAgIC5zYWZlUGFyc2UoY3JlZGVudGlhbHMpO1xuXG4gICAgICAgIGlmIChwYXJzZWRDcmVkZW50aWFscy5zdWNjZXNzKSB7XG4gICAgICAgICAgY29uc3QgeyBlbWFpbCwgcGFzc3dvcmQgfSA9IHBhcnNlZENyZWRlbnRpYWxzLmRhdGE7XG4gICAgICAgICAgY29uc3QgdXNlciA9IGF3YWl0IGdldFVzZXIoZW1haWwpO1xuICAgICAgICAgIGlmICghdXNlcikgcmV0dXJuIG51bGw7XG4gICAgICAgICAgY29uc3QgcGFzc3dvcmRzTWF0Y2ggPSBhd2FpdCBiY3J5cHQuY29tcGFyZShwYXNzd29yZCwgdXNlci5wYXNzd29yZCk7XG5cbiAgICAgICAgICBpZiAocGFzc3dvcmRzTWF0Y2gpIHJldHVybiB1c2VyO1xuICAgICAgICB9XG5cbiAgICAgICAgY29uc29sZS5sb2coJ0ludmFsaWQgY3JlZGVudGlhbHMnKTtcbiAgICAgICAgcmV0dXJuIG51bGw7XG4gICAgICB9LFxuICAgIH0pLFxuICBdLFxufSk7XG4iXSwibmFtZXMiOlsiTmV4dEF1dGgiLCJDcmVkZW50aWFscyIsImF1dGhDb25maWciLCJ6Iiwic3FsIiwiYmNyeXB0IiwiZ2V0VXNlciIsImVtYWlsIiwidXNlciIsInJvd3MiLCJlcnJvciIsImNvbnNvbGUiLCJFcnJvciIsImF1dGgiLCJzaWduSW4iLCJzaWduT3V0IiwicHJvdmlkZXJzIiwiYXV0aG9yaXplIiwiY3JlZGVudGlhbHMiLCJwYXJzZWRDcmVkZW50aWFscyIsIm9iamVjdCIsInN0cmluZyIsInBhc3N3b3JkIiwibWluIiwic2FmZVBhcnNlIiwic3VjY2VzcyIsImRhdGEiLCJwYXNzd29yZHNNYXRjaCIsImNvbXBhcmUiLCJsb2ciXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./auth.ts\n");
+
 /***/ })
 
 };
@@ -253,7 +505,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@heroicons","vendor-chunks/clsx"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fdashboard%2Fcustomers%2Fpage&page=%2Fdashboard%2Fcustomers%2Fpage&appPaths=%2Fdashboard%2Fcustomers%2Fpage&pagePath=private-next-app-dir%2Fdashboard%2Fcustomers%2Fpage.tsx&appDir=%2FUsers%2Falexandr%2FDesktop%2Fnextjs-dashboard-second%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Falexandr%2FDesktop%2Fnextjs-dashboard-second&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@neondatabase","vendor-chunks/@auth","vendor-chunks/zod","vendor-chunks/jose","vendor-chunks/ws","vendor-chunks/oauth4webapi","vendor-chunks/next-auth","vendor-chunks/preact","vendor-chunks/preact-render-to-string","vendor-chunks/@heroicons","vendor-chunks/@vercel","vendor-chunks/node-gyp-build","vendor-chunks/cookie","vendor-chunks/@panva","vendor-chunks/utf-8-validate","vendor-chunks/bufferutil","vendor-chunks/clsx"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fdashboard%2Fcustomers%2Fpage&page=%2Fdashboard%2Fcustomers%2Fpage&appPaths=%2Fdashboard%2Fcustomers%2Fpage&pagePath=private-next-app-dir%2Fdashboard%2Fcustomers%2Fpage.tsx&appDir=%2FUsers%2Falexandr%2FDesktop%2Fnextjs-dashboard-second%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Falexandr%2FDesktop%2Fnextjs-dashboard-second&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
